@@ -1,0 +1,7 @@
+[1006/090204.805:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1006/090204.805:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1006/090204.805:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1006/090205.101:ERROR:exception_snapshot_win.cc(99)] thread ID 6680 not found in process
+[1006/090205.101:ERROR:exception_snapshot_win.cc(99)] thread ID 2220 not found in process
+[1006/090205.101:ERROR:exception_snapshot_win.cc(99)] thread ID 6904 not found in process
+[1008/225027.919:ERROR:settings.cc(320)] Settings magic is not 1129342067

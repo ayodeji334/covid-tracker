@@ -1,0 +1,187 @@
+body,
+html {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Nunito", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  overflow: auto;
+  background: rgb(236, 236, 236) !important;
+}
+* {
+  margin: 0;
+}
+.info-box-figure {
+  font-size: 1.7rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+h5 {
+  font-weight: bold;
+}
+.avatar-img {
+  padding: 15px;
+  height: 180px;
+  width: 180px;
+}
+.total-cases .card {
+  border-top: 6px solid blue;
+}
+.recovered .card {
+  border-top: 6px solid green;
+}
+.active-cases .card {
+  border-top: 6px solid yellow;
+}
+.death-cases .card {
+  border-top: 6px solid red;
+}
+.information-container .card {
+  height: 100%;
+}
+.img-fluid {
+  height: 100% !important;
+}
+.map-detail .card-header {
+  background-color: white;
+  align-self: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pagination {
+  margin: -2px 0px 0px 0px !important;
+}
+.page-link {
+  padding: 0.4rem !important;
+}
+.dashboard-container {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.side_navbar {
+  width: 60px;
+  padding: 10px;
+  border-radius: 10px;
+  position: fixed;
+  height: 100%;
+  margin-left: 5px;
+  background-color: white;
+  text-align: center;
+}
+.active {
+  background-color: red;
+  color: white !important;
+  font-weight: 700 !important;
+  border-radius: 5px;
+  padding: 0.3rem !important;
+  margin-left: 22px !important;
+  transition: all 0.8s;
+}
+.side_navbar nav {
+  margin-left: -23px;
+}
+.tooltip {
+  visibility: hidden;
+  left: 10px;
+  position: absolute;
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  padding: 2px;
+  margin-top: -50px;
+}
+/* //lautech-connect-app */
+nav {
+  position: fixed;
+  background: white;
+  z-index: 100;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+ul {
+  padding-left: 15px;
+  list-style-type: lower-roman;
+}
+.map-analysis-container {
+  background-color: white;
+}
+.live_analysis *,
+.map-analysis-container * {
+  border: 0px !important;
+}
+.most-affected-states .card {
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+  margin: 0px 10px;
+}
+.card-header {
+  background-color: white !important;
+}
+.live-report-table .MuiSvgIcon-root {
+  font-size: 0.98rem !important;
+}
+.symptoms-info-container a {
+  background-color: #dc354512;
+  padding: 0.375rem 0.75rem;
+  font-weight: 900 !important;
+  color: red;
+  font-size: 1rem;
+  margin: 10px 0;
+  display: inline-block;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.donate-info-container a {
+  background-color: #00800015;
+  padding: 0.375rem 0.75rem;
+  font-weight: 900 !important;
+  color: green;
+  font-size: 1rem;
+  margin: 10px 0;
+  display: inline-block;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.information-container a:hover {
+  text-decoration: none;
+}
+.symptoms-info-container a:hover {
+  background-color: #dc354512;
+  color: red;
+}
+.donate-info-container a:hover {
+  background-color: #00800015;
+  color: green;
+}
+.donate-container,
+.symptoms-container {
+  padding-top: 6.6rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.map {
+  height: 460px;
+  background-color: white;
+  padding: 0.6rem;
+  border-radius: 20px;
+  margin-top: -10px;
+}
+.map .leaflet-container {
+  height: 100%;
+  border-radius: 12px;
+  z-index: 50;
+}
