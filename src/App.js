@@ -40,7 +40,7 @@ function App() {
             <strong>Nigeria COVID-19 Tracker</strong>
           </h4>
         </nav>
-         <Dashboard
+          <Dashboard
             countryInfo={countryInfo}
             statesInfo={countryStatesInfo}
           />
