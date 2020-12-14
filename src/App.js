@@ -28,18 +28,18 @@ function App() {
   return (
     <div className="wrapper">
       <div className="main-container">
-        <nav>
-          <h4 className="font-weight-bold">
-            <img
-              src="https://disease.sh/assets/img/flags/ng.png"
-              alt="Nigeria-flag"
-              width="35"
-              height="25"
-              className="mr-2"
-            />
-            <strong>Nigeria COVID-19 Tracker</strong>
-          </h4>
-        </nav>
+          <nav className="container-fluid">
+            <h4 className="font-weight-bold">
+              <img
+                src="https://disease.sh/assets/img/flags/ng.png"
+                alt="Nigeria-flag"
+                width="35"
+                height="25"
+                className="mr-2"
+              />
+              <strong>Nigeria COVID-19 Tracker</strong>
+            </h4>
+          </nav>
           <Dashboard
             countryInfo={countryInfo}
             statesInfo={countryStatesInfo}

@@ -1,6 +1,7 @@
 body,
 html {
   margin: 0;
+  width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Nunito", "Segoe UI", "Roboto",
     "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif !important;
@@ -65,8 +66,13 @@ h5 {
 .dashboard-container {
   padding-top: 80px;
   padding-bottom: 30px;
-  display: flex;
+  flex: 1;
   flex-direction: row;
+  width: 100%;
+}
+.dashboard-content {
+  width: 100%;
+  margin: auto;
 }
 .side_navbar {
   width: 60px;
@@ -184,4 +190,20 @@ ul {
   height: 100%;
   border-radius: 12px;
   z-index: 50;
+}
+
+@media (min-width: 992px) { 
+  .dashboard-content {
+    width: 96%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .information-container{
+    display: none;
+  }
+  .map-analysis-container,.map-detail{
+    margin-bottom: 18px;
+  }
 }
